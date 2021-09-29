@@ -4,12 +4,14 @@ title: Projects
 date: 2021-09-28
 ---
 
+import Image from 'next/image';
+import Link from 'next/link';
+
 # Projects
 
 > Here's some of my projects.
 
-import Image from 'next/image';
-import Link from 'next/link';
+## Applications / Sites
 
 <Image
   src="/images/header-blogs.png"
@@ -21,22 +23,82 @@ import Link from 'next/link';
 />
 This very site you're on right now. This is my hello/portfolio/personal/contact site. The blog posts can be accessed <Link href="/posts">here</Link>.
 
-## Stack
+### Stack
 
 - Next.js
 - SSG MDX
 - Deployed on Vercel
 
-# Voice
+<a href="https://discord.com/api/oauth2/authorize?client_id=607710265198379244&permissions=2147483647&scope=bot" target="_blank">
+  <Image
+    src="/images/header-voice.png"
+    alt="Header, Blog"
+    width={1366}
+    height={520}
+    priority
+    className="next-image"
+  />
+</a>
 
-[Voice](https://github.com/joaquimnet/voice) is a TTS discord bot.
+<a href="https://github.com/joaquimnet/voice" target="_blank">Voice</a> is a TTS discord bot.
 
-# Hanabi
+### Stack
 
-[Hanabi](https://hanabi-bot.com/) in an empathetic bot with concepts of currency / trading and gifs.
+- discord.js
+- [sensum](https://www.npmjs.com/package/sensum)
+- Google TTS API
+- Docker
+- Deployed on Digital Ocean
+
+<a href="https://hanabi-bot.com" target="_blank">
+  <Image
+    src="/images/header-hanabi.png"
+    alt="Header, Blog"
+    width={1366}
+    height={520}
+    priority
+    className="next-image"
+  />
+</a>
+
+<a href="https://hanabi-bot.com" target="_blank">Hanabi</a> in an empathetic bot with concepts of currency / trading and gifs.
 
 Has the ability to feel authentic with slightly delayed responses when certain triggers are heard.
 
 She is able to hear if you are sad, angry, tired, depressed, etcetera and has a response to help aide in those emotions.
 
 She is not only good for empathy, but she also has jokes, and multiple hidden features to make you laugh and smile.
+
+### Stack
+
+- discord.js
+- [sensum](https://www.npmjs.com/package/sensum)
+- Docker
+- Deployed on Digital Ocean
+
+## Libraries
+
+### Sensum
+
+Sensum is a framework that aims to speed up discord bot development by offering tools that allow you to quickly create commands.
+
+<a href="https://github.com/joaquimnet/sensum" target="_blank">Repo</a> <a href="https://www.npmjs.com/package/sensum" target="_blank">NPM</a>
+
+### Ponaserv
+
+Easily map routes to request handlers in express apps.
+
+<a href="https://github.com/joaquimnet/ponaserv" target="_blank">Repo</a> <a href="https://www.npmjs.com/package/ponaserv" target="_blank">NPM</a>
+
+### Tinv
+
+Just a simple genie for loading .env files.
+
+<a href="https://github.com/joaquimnet/tinv" target="_blank">Repo</a> <a href="https://www.npmjs.com/package/tinv" target="_blank">NPM</a>
+
+### Plinter
+
+A linter for your project.
+
+<a href="https://github.com/joaquimnet/plinter" target="_blank">Repo</a> <a href="https://www.npmjs.com/package/plinter" target="_blank">NPM</a>
+

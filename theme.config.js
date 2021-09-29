@@ -17,5 +17,6 @@ export default {
         }
       `}</style>
     </small>
-  )
+  ),
+  titleSuffix: ' – Joaquim Neto',
 }
